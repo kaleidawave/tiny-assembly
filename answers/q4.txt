@@ -1,0 +1,9 @@
+if (x == 0) goto 8
+if (y == 0) goto 6
+x--
+y--
+goto 1
+label L1
+stop
+label L2
+stop

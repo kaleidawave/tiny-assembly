@@ -1,0 +1,21 @@
+if (a == 0) goto 4
+a--
+goto 1
+if (z == 0) goto 7
+z--
+goto 4
+if (x == 0) goto 18
+if (y == 0) goto 14
+x--
+y--
+a++
+goto 7
+if (x == 0) goto 21
+z++
+x--
+goto 13
+if (y == 0) goto 21
+z++
+y--
+goto 17
+stop

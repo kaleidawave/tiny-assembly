@@ -1,0 +1,13 @@
+if (z == 0) goto 4
+z--
+goto 1
+if (y == 0) goto 9
+x++
+z++
+y--
+goto 4
+if (z == 0) goto 13
+y++;
+z--
+goto 9
+stop
